@@ -24,6 +24,7 @@ fn_01_01 <- function(){
 #' 
 fn_01_02 <- function(){
   
+  # hint: replace NULL with a string
   result <- NULL
   
   return(result)
