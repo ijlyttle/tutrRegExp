@@ -1,0 +1,14 @@
+Package: tutrStringr
+Type: Package
+Title: Tutorial for regular expressions, using stringr and testthat
+Version: 0.9-1
+Date: 2012-12-11
+Author: Ian Lyttle
+Maintainer: Ian Lyttle <ian.lyttle@schneider-electric.com>
+Description: Using testhat and stringr to help teach regular expressions
+License: Have to think about this
+Imports:
+    stringr
+Collate:
+    'tutrStringr.R'
+    'fn_01.R'
