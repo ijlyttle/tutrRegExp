@@ -1,4 +1,4 @@
-Package: tutrStringr
+Package: tutrRegExp
 Type: Package
 Title: Tutorial for regular expressions, using stringr and testthat
 Version: 0.9-1
