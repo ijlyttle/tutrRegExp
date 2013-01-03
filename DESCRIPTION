@@ -12,3 +12,5 @@ Imports:
 Collate:
     'tutrStringr.R'
     'fn_01.R'
+    'fn_00.R'
+    'fn_02.R'
