@@ -16,7 +16,11 @@ test_that("we match US phone numbers", {
   )
 })
 
+<<<<<<< HEAD
 # Modify the function fn_02_02 such that it returns a string describing a
+=======
+# Modify the function fn_02_01 such that it returns a string describing a
+>>>>>>> d0b971af35a72661afda387cc52b6e4bcbccdeb3
 # regular expression that matches:
 #
 #   US phone numbers
@@ -49,7 +53,11 @@ test_that("we match US phone numbers, with last four extracted as a group", {
   )
 })
 
+<<<<<<< HEAD
 # Modify the function fn_02_03 such that it returns a vector of strings where
+=======
+# Modify the function fn_02_02 such that it returns a vector of strings where
+>>>>>>> d0b971af35a72661afda387cc52b6e4bcbccdeb3
 # phone numbers are formatted:
 #
 #   +1 (xxx) xxx-xxxx
