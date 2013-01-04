@@ -9,7 +9,7 @@ require(stringr)
 #' 
 fn_01_01 <- function(){
 
-  result <- "the"
+  result <- ""
   
   return(result)
 }
@@ -23,7 +23,7 @@ fn_01_01 <- function(){
 #' 
 fn_01_02 <- function(){
   
-  result <- "\\bthe\\b"
+  result <- ""
   
   return(result)
 }
@@ -37,7 +37,7 @@ fn_01_02 <- function(){
 #' 
 fn_01_03 <- function(){
   
-  result <- "\\b[Tt]he\\b"
+  result <- ""
   
   return(result)
 }
@@ -51,7 +51,7 @@ fn_01_03 <- function(){
 #' 
 fn_01_04 <- function(){
   
-  result <- "\\b\\w{5}\\b"
+  result <- ""
   
   return(result)
 }

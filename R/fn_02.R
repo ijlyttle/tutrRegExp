@@ -19,7 +19,7 @@ fn_02_01 <- function(){
   # [- ]?     optional (dash or space)
   # [0-9]{4}  four digits
   #
-  result <- "\\(?[0-9]{3}\\)?[- .]?[0-9]{3}[- .]?[0-9]{4}"
+  result <- "\\(?[0-9]{3}\\)?[- ]?[0-9]{3}[- ]?[0-9]{4}"
   
   return(result)
 }
@@ -42,7 +42,7 @@ fn_02_02 <- function(){
   # [- ]?         optional (dash or space)
   # [0-9]{4}      four digits
   #
-  result <- "\\(?([0-9]{3})\\)?[- .]?([0-9]{3})[- .]?([0-9]{4})"
+  result <- "\\(?[0-9]{3}\\)?[- ]?[0-9]{3}[- ]?[0-9]{4}"
   
   return(result)
 }
@@ -65,7 +65,7 @@ fn_02_03 <- function(string_input){
   # [- ]?         optional (dash or space)
   # [0-9]{4}      four digits
   #
-  re_phone_modified <- "\\(?([0-9]{3})\\)?[- .]?([0-9]{3})[- .]?([0-9]{4})"
+  re_phone_modified <- "\\(?[0-9]{3}\\)?[- ]?[0-9]{3}[- ]?[0-9]{4}"
   
   # design a replacement string
   replacement_string <- "+1 (\\1) \\2-\\3"
