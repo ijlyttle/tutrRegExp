@@ -10,7 +10,7 @@ require(stringr)
 fn_00_01 <- function(){
   
   # replace the string below with "hat"
-  result <- ""
+  result <- "max"
   
   return(result)
 }
