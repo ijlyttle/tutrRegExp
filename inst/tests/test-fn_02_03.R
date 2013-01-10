@@ -5,7 +5,7 @@ context("intermediate fn_02_03")
 #
 #   +1 (xxx) xxx-xxxx
 #
-test_that("we match US phone numbers, with last four extracted as a group", {
+test_that("we modify the phone numbers to conform to the correct format", {
   expect_that(fn_02_03(ia_house), 
               equals(c("List of district-office phone-numbers for US House Iowa delegation", 
                        "Bruce Braley +1 (563) 323-5988",
