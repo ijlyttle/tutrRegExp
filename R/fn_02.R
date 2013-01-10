@@ -68,7 +68,7 @@ fn_02_03 <- function(string_input){
   re_phone_modified <- "\\(?[0-9]{3}\\)?[- ]?[0-9]{3}[- ]?[0-9]{4}"
   
   # design a replacement string
-  replacement_string <- "+1 (\\1) \\2-\\3"
+  replacement_string <- ""
   
   result <- str_replace_all(string_input, re_phone_modified, replacement_string)
   
