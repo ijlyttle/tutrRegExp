@@ -1,4 +1,4 @@
-context("introduction fn_01_03)
+context("introduction fn_01_03")
 
 # Modify the function fn_01_03 such that it returns a string describing a
 # regular expression that matches:
